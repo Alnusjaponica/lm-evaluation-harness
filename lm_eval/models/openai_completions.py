@@ -215,7 +215,7 @@ class OpenaiCompletionsLM(TemplateLM):
                 echo=True,
                 max_tokens=0,
                 temperature=0.0,
-                logprobs=10,
+                logprobs=5,
                 seed=self.seed,
             )
 
